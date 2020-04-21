@@ -44,4 +44,19 @@ As mentioned before I used Facebook's Prohpet model to run these predictions. Th
 #### 4. Final Result
 Here are a few images of how the model performed.
 
+**Christmas Carol**
+<img src="/images/Tableau_Christmas_Carol.png"  width="900" height="500">
+
+**Abraham Lincoln**
+<img src="/images/Tableau_Abraham_Lincoln.png"  width="900" height="500">
+
+**Game of Thrones**
+<img src="/images/Tableau_GOT.png"  width="900" height="500">
+
+**Adidas**
+<img src="/images/Tableau_Adidas.png"  width="900" height="500">
+
+
+
+
 
