@@ -24,9 +24,11 @@ This data has more than 465,000 rows and 550 columns. These represent the variou
  
 The below are the some of the feature engineering steps
 
-**Melting:**  
-**GroupBy Page:** 
-**UDF to call Prophet:** 
+**Melting ** 
+
+**GroupBy Page ** 
+
+**UDF to call Prophet** 
 
 
 #### 3. Modelling
