@@ -1,36 +1,32 @@
 
 # Web Traffic Time Series Prediction
 
-We use Time Series Analysis to predict web page views on Wikipedia. The idea is to run predictions at scale. 
+I used Time Series Analysis to predict web page views on Wikipedia. The idea is to run predictions at scale. 
 
 Businesses need to get accurate forecasts of things like items to stock, pricing for ads, expected loads etc there is a growing need to predict better and for a lot of data. 
 
-I used Facebook's Prophet model to predict future timeseries here along with Spark to parallelize the whole process so we can predict at scale.
+I used Facebook's Prophet model to predict future time series here along with Spark to parallelize the whole process so I can predict at scale.
 
 Here is how i did this.
  
 #### 1. Data Exploration
  
-We are using [company name] data from Kaggle.
+I am using Wikipedia page web traffic data from Kaggle.
 
-This data has more than 465,000 rows and [250] columns. These represent the various wikipedia pages and the views for each page over time.
+This data has more than 465,000 rows and 550 columns. These represent the various wikipedia pages and the views for each page over time.
 
-**Daily Seaonaniluty**: I tried to check if there is any daily seasonaility in the model but i coud not find much daily seasonality.
+**Daily Seasonality**: I tried to check if there is any daily seasonaility in the model but i coud not find much daily seasonality.
 
-**Yearly Seasonaility**: I could certainly see a lot of pages having yearly seasonaility so I decided to use Yearly Seasonality for all the pages in my model.
+**Yearly Seasonality**: I could certainly see a lot of pages having yearly seasonaility so I decided to use Yearly Seasonality for all the pages in my model.
 
            
 #### 2. Feature Engineering 
  
-Here we look at the factors and do some factor engineering steps
+The below are the some of the feature engineering steps
 
-**Melting:**  {here goes what is Tokenize}
-
-**GroupBy Page:** [something about removing stop words]
-
-**UDF to call Prophet:** { what is seq2vec, why is this important, any drawbacks?}
-
-**Data Cleanup**: {simple why padding, one setence is good} 
+**Melting:**  
+**GroupBy Page:** 
+**UDF to call Prophet:** 
 
 
 #### 3. Modelling
